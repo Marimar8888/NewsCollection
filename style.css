@@ -7,22 +7,33 @@ body{
     background: rgb(228,140,220);
     background: linear-gradient(90deg, rgba(228,140,220,0.58) 0%, rgba(169,97,215,1) 62%, rgba(139,39,205,1) 85%); 
     margin: 0;
-    
+    overflow: hidden;
 }
 
 .container{
     width: 70%;
-    margin: 50px auto;
+    overflow: hidden;
+    box-sizing: content-box;
+    min-width: 20%;
+ 
+}
+
+section{
+
+    margin: 0 auto;
 }
 
 article{
+
     width: 20%;
-    min-width: 250px;
+    min-width: 150px;
+    max-width: 250px;
     background-color: white;
     border-radius: 20px;
-    margin: 10px;
+    margin: 50px 10px 5px 10px;
     float: left;
     padding: 12px; 
+    display: inline;
 }
 
 
@@ -41,4 +52,6 @@ article time{
     margin: 0 auto;
     min-width: 100%;
 }
+
+
 
